@@ -1,0 +1,40 @@
+.conhecimentos {
+  background-color: #383838;
+  /* padding: 100px 0; */
+}
+
+.conhecimentos .flex {
+  display: flex;
+  margin: 0% 20% 0% 20%;
+  justify-content: space-between;
+  padding: 50px 0;
+  gap: 200px;
+  max-width: 1053px;
+
+
+}
+
+.conhecimentos .icones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.conhecimentos .icones .tecnologias {
+  background-color: #e75719;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #f16e35;
+  border-radius: 10px;
+}
+
+.conhecimentos .flex .text h1 {
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 20px;
+  /* margin-top: 0; */
+}

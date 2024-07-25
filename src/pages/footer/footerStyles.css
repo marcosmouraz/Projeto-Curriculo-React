@@ -1,0 +1,23 @@
+.footer {
+  background-color: #1c1b1b;
+}
+
+.footer .flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20%;
+  align-items: center;
+  max-width: 1053px;
+}
+
+.footer img {
+  width: 150px;
+}
+
+.footer h1 {
+  font-size: 16px;
+}
+
+.footer span {
+  color: #e75719;
+}

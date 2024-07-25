@@ -1,0 +1,72 @@
+.header .flex .texto h1 {
+  font-size: 43px;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .flex .texto p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+/* Estilizando o Header */
+
+.header .flex {
+  margin: 2% 20% 0 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 2px; */
+  padding: 5% 0;
+}
+
+.header .flex .texto h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.header .flex .texto h1 span {
+  color: #e75719;
+}
+
+.header .flex .texto p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header .flex .texto .button button {
+  padding: 10px 40px;
+  font-size: 18px;
+  background-color: #e75719;
+  border: 0;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.header .flex .texto .button button:hover {
+  box-shadow: 0 0 8px #ff4d00;
+  transform: scale(1.05);
+}
+
+
+@keyframes flutuar {
+
+  /* Estado inicial */
+  0% {
+    top: 0;
+  }
+
+  /* Estado final */
+  100% {
+    top: 30px;
+  }
+}
+
+.header .flex .img img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}

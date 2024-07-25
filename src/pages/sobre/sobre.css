@@ -1,0 +1,62 @@
+.sobre .flex {
+  display: flex;
+  margin: 2% 20% 2% 20%;
+  max-width: 1200px;
+  gap: 50px;
+  justify-content: space-between;
+  background-color: #1c1b1b;
+  border-radius: 15px;
+  border: 1px solid #ffffff56;
+  padding: 30px;
+}
+
+.sobre .imagem img {
+  border-radius: 15px;
+  width: 400px;
+}
+
+.sobre .direito {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sobre .direito .text h1 {
+  font-size: 30px;
+  margin: 2px auto;
+}
+
+.sobre .direito .text h2 {
+  font-size: 20px;
+  color: #e75719;
+  margin: 2px auto;
+}
+
+.sobre .direito .text p {
+  font-size: 15px;
+  color: #9a9595;
+  margin-top: 25px;
+}
+
+.sobre .direito .icones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre .direito .icones img {
+  width: 30px;
+
+}
+
+.sobre .direito .icones a {
+  background-color: #e75719;
+  padding: 8px;
+  border-radius: 5px;
+
+}
+
+.sobre .direito .icones a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #e75719;
+
+}

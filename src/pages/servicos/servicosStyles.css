@@ -1,0 +1,62 @@
+.servicos .flex-container {
+  margin: 0 20% 0 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  max-width: 1053px;
+}
+
+.servicos .nome {
+  padding-bottom: 30px;
+}
+
+.servicos .nome h1 {
+  font-size: 40px;
+
+}
+
+.servicos .nome h2 {
+  font-size: 20px;
+  color: #e75719;
+}
+
+.servicos .box {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.servicos .box .box-item {
+  background-color: #e75719;
+  padding: 15px;
+  width: 300px;
+  height: px;
+  border-radius: 10px;
+  border: 2px #f16e35 solid;
+  text-align: center;
+}
+
+.servicos .box-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.servicos .box-item h1 {
+  font-size: 24px;
+}
+
+.servicos.box-item p {
+  font-size: 17px;
+}
+
+.servicos .box button {
+  padding: 15px 80px;
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.servicos .box .box-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
